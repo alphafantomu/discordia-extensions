@@ -8,7 +8,7 @@ seperate package for discordia's extension module
 - If the [repository owner](https://github.com/SinisterRectus) of Discordia would like me to remove this repository regardless of reason, feel free to contact me via Discord `Arivistraliavatoriar#2678`, luvit discord server, or through issues.
 
 ## Installation
-- This package uses the lit package manager, run `lit install alphafantomu/discordia-extensions`
+- This package uses the [lit](https://github.com/luvit/lit) package manager, run `lit install alphafantomu/discordia-extensions`
 - If you're using this in a self-contained binary through [Luvi](https://github.com/luvit/luvi), you may include it inside `package.lua` as well `alphafantomu/discordia-extensions`
 - You can reference the library using `require('discordia-extensions')`
 
