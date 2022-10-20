@@ -1,3 +1,14 @@
+--[[lit-meta
+  name = "alphafantomu/discordia-extensions"
+  version = "0.0.4"
+  homepage = "https://github.com/alphafantomu/discordia-extensions"
+  description = "seperate package of discordia's extension module"
+  tags = { "discordia", "stand-alone", "luvit", "utility", "copy" }
+  author = { name = "Ari Kumikaeru"}
+  files = {"**.lua"}
+  license = "MIT"
+]]
+
 --[[ NOTE:
 These standard library extensions are NOT used in Discordia. They are here as a
 convenience for those who wish to use them.
@@ -14,8 +25,6 @@ You can inject these extensions into the standard Lua global tables by
 calling either the main module (ex: discordia.extensions()) or each sub-module
 (ex: discordia.extensions.string())
 ]]
-
---Package note: you can just require this module
 
 local _G = _G;
 local type, pairs, ipairs, setmetatable = type, pairs, ipairs, setmetatable;
